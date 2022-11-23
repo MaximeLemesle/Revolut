@@ -1,0 +1,35 @@
+html {
+    background: #F3F4F5;
+}
+
+.main__first {
+    position: relative;
+}
+
+.first__image {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.first__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: auto;
+    height: 80vh;
+}
+
+.first__content h1 {
+    max-width: 80%;
+}
+
+.first__content p {
+    max-width: 60%;
+}

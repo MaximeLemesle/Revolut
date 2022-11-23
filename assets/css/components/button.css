@@ -1,0 +1,28 @@
+.btn-light {
+    max-width: max-content;
+    height: 2.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: none;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.btn-dark {
+    max-width: max-content;
+    height: 2.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    background-color: #191C1F;
+    color: #ffffff;
+    border: none;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
