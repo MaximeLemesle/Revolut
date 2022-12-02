@@ -4,6 +4,7 @@ html {
 
 .main__first {
     position: relative;
+    margin-bottom: 10rem;
 }
 
 .first__image {
@@ -32,4 +33,16 @@ html {
 
 .first__content p {
     max-width: 60%;
+}
+
+.french__cards {
+    margin-bottom: 12.5rem;
+}
+
+.main__title {
+    text-align: center;
+}
+
+.main__title .p-grey {
+    text-align: center;
 }

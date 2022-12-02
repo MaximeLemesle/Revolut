@@ -5,9 +5,18 @@
     border-radius: 20px;
 }
 
+.cards__img {
+    border-radius: 20px;
+}
+
 .cards__text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 5rem 2.5rem;
 }
+
+.text__block {
+    padding-left: 1rem;
+}
+

@@ -1,4 +1,4 @@
-.card__link {
+.link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -6,4 +6,24 @@
     line-height: 28px;
     color: #0B6EF9;
     text-align: start;
+    text-decoration: none;
+    padding: .25rem 1rem;
+    border-radius: 20px;    
+    transition: .3s ease 0s;
+}
+
+.link svg {
+    margin-left: .75rem;
+    fill: #0B6EF9;
+    transition: .3s ease 0s;
+}
+
+.link:hover {
+    background: #0B6EF9;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.link:hover svg {
+    fill: #ffffff;
 }
