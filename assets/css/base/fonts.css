@@ -12,16 +12,38 @@
 
 h1 {
     font-family: 'Basier Circle';
+    font-style: normal;
     color: #191C1F;
     font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    letter-spacing: 0.2px;
     text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Basier Circle';
+    font-style: normal;
+    color: #191C1F;
+    font-size: 2.125rem;
+    font-weight: 600;
+    line-height: 2.5rem;
     margin: 0;
 }
 
 p {
     font-family: 'Roboto';
+    font-style: normal;
     color: #191C1F;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75rem;
     text-align: center;
     margin: 0;
+}
+
+.p-grey {
+    color: #505A63;
+    text-align: start;
 }

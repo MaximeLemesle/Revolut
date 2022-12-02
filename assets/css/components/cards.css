@@ -1,0 +1,13 @@
+.cards {
+    display: flex;
+    max-height: fit-content;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.cards__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem 2.5rem;
+}
