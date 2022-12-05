@@ -1,22 +1,64 @@
 .cards {
     display: flex;
-    max-height: fit-content;
-    background: #FFFFFF;
+    max-height: fit-content;    
     border-radius: 20px;
+    cursor: pointer;
 }
 
-.cards__img {
-    border-radius: 20px;
+.cards:hover .cards__img {
+    transform: scale(1.05);
 }
 
-.cards__text {
+.cards .cards__img {
+    border-radius: 20px;
+    width: 100%;
+    transition: .7s;
+}
+
+.cards .cards__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 5rem 2.5rem;
 }
 
-.text__block {
+.cards .content__block {
     padding-left: 1rem;
+    z-index: 100;
 }
 
+.french__cards {
+    background: #ffffff;
+}
+
+.cards {
+    position: relative;
+    height: 524px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cards .cards__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards .cards__content {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+
+.cards p {
+    text-align: left;
+}
+
+.cards--half {
+    height: 580px;
+}
+
+.cards--half .cards__content {
+    width: 100%;
+}

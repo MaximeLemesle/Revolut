@@ -35,6 +35,11 @@ h3 {
     line-height: 2.5rem;
     margin: 0;
     margin-bottom: 1.5rem;
+    z-index: 100;
+}
+
+.h3-white {
+    color: #ffffff;
 }
 
 p {
@@ -50,5 +55,8 @@ p {
 
 .p-grey {
     color: #505A63;
-    text-align: start;
+}
+
+.p-white{
+    color: #ffffff;
 }

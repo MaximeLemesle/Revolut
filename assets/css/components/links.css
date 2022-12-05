@@ -1,3 +1,7 @@
+.link__container {
+    z-index: 100;
+}
+
 .link {
     font-family: 'Roboto';
     font-style: normal;
@@ -26,4 +30,22 @@
 
 .link:hover svg {
     fill: #ffffff;
+}
+
+
+.link-white {
+    color: #ffffff;
+}
+
+.link-white svg {
+    fill: #ffffff;
+}
+
+.link-white:hover {
+    background: #ffffff;
+    color: #0B6EF9;
+}
+
+.link-white:hover svg {
+    fill: #0B6EF9;
 }

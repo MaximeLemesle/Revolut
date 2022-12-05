@@ -5,5 +5,6 @@
 @import "./components/links.css";
 @import "./layouts/container.css";
 @import "./layouts/header.css";
+@import "./layouts/grid.css";
 @import "./layouts/index.css";
 @import "./pages/index.css";

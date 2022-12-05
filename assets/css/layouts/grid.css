@@ -1,0 +1,17 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.grid > * {
+    flex: 100%;
+}
+
+.grid > *:nth-child(3n+2) {
+    flex: calc(50% - 1.25rem);
+}
+
+.grid > *:nth-child(3n+3) {
+    flex: calc(50% - 1.25rem);
+}
