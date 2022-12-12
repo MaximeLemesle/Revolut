@@ -62,3 +62,13 @@
 .cards--half .cards__content {
     width: 100%;
 }
+
+.cards--tiny {
+    background: #ffffff;
+    height: 328px;
+}
+
+.cards--tiny .cards__content {
+    width: 100%;
+    padding: 1.5rem;
+}
